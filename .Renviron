@@ -1,0 +1,2 @@
+# Custom directory for installed R packages
+#R_LIBS_USER="~/.local/lib/R/%a-%o-library/%v"
