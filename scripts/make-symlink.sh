@@ -1,8 +1,11 @@
 files=(
 .gitconfig
+.bash_profile
 .tmux.conf
 .vimrc
 .vim/coc-settings.json
+.Rprofile
+.Renviron
 )
 
 src="$(pwd)"

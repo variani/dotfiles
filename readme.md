@@ -80,3 +80,40 @@ brew tap domt4/autoupdate
 # configure brew auto-update
 brew autoupdate --start --upgrade --cleanup --enable-notification
 ```
+
+**Install & Configure iTerm2**
+
+- https://sourabhbajaj.com/mac-setup/iTerm/
+
+```
+# install iTerm2
+brew install --cask iterm2
+# install fonts
+brew tap homebrew/cask-fonts 
+brew install --cask font-source-code-pro
+```
+
+- Select the color scheme (see [colors/](colors/)) 
+- Change the font to Source Code Pro Lite
+
+**Configure vim**
+
+Install the plugin manager: https://github.com/junegunn/vim-plug
+
+```
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+**Configure tmux**
+
+Install the plugin manager: https://github.com/tmux-plugins/tpm
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+- reload the tmux with prefix + r (see .tmux.conf)
+- install the plugins specified in .tmux.conf with prefix + I (capital i, as in **I**nstall)
+- save the current tmux session with prefix + s
+

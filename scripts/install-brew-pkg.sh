@@ -12,6 +12,7 @@ brew install neovim
 # Git version control
 brew install git
 brew install git-lfs
+brew install svn
 
 # Convert line endings
 brew install dos2unix
@@ -62,7 +63,7 @@ brew install tmux
 brew install tree
 
 # Show the processes
-brew install tree
+brew install htop
 
 # Decompress .rar files
 brew install unrar
