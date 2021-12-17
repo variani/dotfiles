@@ -4,6 +4,8 @@
 
 **Set up bash as default**
 
+- https://www.tecmint.com/change-a-users-default-shell-in-linux/
+
 ```
 # check available shells
 cat /etc/shells
@@ -26,8 +28,9 @@ xcode-select --install
 **Install Homebrew**
 
 - https://brew.sh
-- https://mac.install.guide/homebrew/3.html: install instructions for Apple Silicon machines: for Mac Silicon machines
+- https://mac.install.guide/homebrew/3.html: for Mac Silicon machines
 - https://www.digitalocean.com/community/tutorials/how-to-install-and-use-homebrew-on-macos: for Mac Intel machines
+- https://mkyong.com/mac/where-does-homebrew-install-packages-on-mac/
 
 1. Install Homebrew
 
@@ -37,6 +40,8 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 ```
 
 2. Add Homebrew to `PATH`
+
+- https://mac.install.guide/homebrew/3.html
 
 > On Mac Intel machines, that's all you need to do; Homebrew is ready to use. On Mac Intel, Homebrew installs itself into the /usr/local/bin directory, which is already configured for access by the shell with the macOS default `$PATH` environment variable (the default is set by the `/usr/libexec/path_helper` command).
 
@@ -64,4 +69,14 @@ brew doctor
 brew update
 # upgrade any installed formulas
 brew upgrade
+```
+
+4. Sep up Homebrew auto update
+
+```
+# install brew auto-update
+brew install terminal-notifier
+brew tap domt4/autoupdate
+# configure brew auto-update
+brew autoupdate --start --upgrade --cleanup --enable-notification
 ```

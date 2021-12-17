@@ -1,13 +1,15 @@
-#!/usr/bin/env bash
-
 files=(
+.gitconfig
 .tmux.conf
-.vim/coc-settings.json
 .vimrc
+.vim/coc-settings.json
 )
 
-src="~/git/variani/dotfiles"
+src="$(pwd)"
+dest=$HOME
 
 for f in ${files[*]} ; do
-  ln -sfn $src/$f ~/$f
+  echo $f
+  ln -sfn $src/$f $dest/$f
 done
+

@@ -1,24 +1,13 @@
 # Learn more about any package at: http://brewformulas.org/PACKAGE
 
-# Use the latest Homebrew.
-brew update
-
-# Upgrade any installed formulas.
-brew upgrade
-
-# Install brew auto-update
-brew install terminal-notifier
-brew tap domt4/autoupdate
-
-brew autoupdate --start --upgrade --cleanup --enable-notification
-
 # Utilities for compiling C code.
 brew install cmake
 brew install coreutils
 
-# New version of vim
+# Text editor vim & neovim
 # Note: this installs sqlite, perl, python3
-brew install vim 
+brew install vim
+brew install neovim
 
 # Git version control
 brew install git
@@ -49,7 +38,6 @@ brew install grep
 brew install hdf5
 
 # New version of vim
-brew install neovim
 
 # latex formula in Power Point
 brew install --cask latexit
@@ -126,5 +114,8 @@ brew install mariadb-connector-c
 # Needed for R packages: udunits2, units, ggforce
 brew install udunits
 
-# Needed for R other packages
+# Needed for other R packages
 brew install openssl libgit2
+
+# Needed for vim plugin coc.nvim
+brew install node
