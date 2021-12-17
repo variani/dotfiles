@@ -2,7 +2,9 @@
 
 ## Install
 
-**Set up bash as default**
+**Set bash as default**
+
+Links
 
 - https://www.tecmint.com/change-a-users-default-shell-in-linux/
 
@@ -35,7 +37,7 @@ xcode-select --install
 1. Install Homebrew
 
 ```
-# command from https://brew.sh
+# command copied from https://brew.sh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -81,6 +83,8 @@ brew tap domt4/autoupdate
 brew autoupdate --start --upgrade --cleanup --enable-notification
 ```
 
+Each time the brew install command is called, the brew will be updated beforehand.
+
 **Install & Configure iTerm2**
 
 - https://sourabhbajaj.com/mac-setup/iTerm/
@@ -92,6 +96,8 @@ brew install --cask iterm2
 brew tap homebrew/cask-fonts 
 brew install --cask font-source-code-pro
 ```
+
+Next manual configuration steps in iTerm2 Preference.
 
 - Select the color scheme (see [colors/](colors/)) 
 - Change the font to Source Code Pro Lite
@@ -105,6 +111,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
+- Test if plugins specified in .vimrc can be install by `:PlugInstall` vim command.
+
 **Configure tmux**
 
 Install the plugin manager: https://github.com/tmux-plugins/tpm
@@ -113,7 +121,7 @@ Install the plugin manager: https://github.com/tmux-plugins/tpm
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
 
-- reload the tmux with prefix + r (see .tmux.conf)
-- install the plugins specified in .tmux.conf with prefix + I (capital i, as in **I**nstall)
-- save the current tmux session with prefix + s
+- Reload the tmux with prefix + r (see .tmux.conf).
+- Install the plugins specified in .tmux.conf with prefix + I (capital i, as in **I**nstall).
+- Test if tmux plugings in .tmux.conf work by trying to save the current tmux session with prefix + s.
 
