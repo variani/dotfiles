@@ -55,6 +55,10 @@ nnoremap Y y$
 " for indenting pasted code correctly, https://unix.stackexchange.com/a/199207
 " set pastetoggle=<F2>
 
+" escape
+imap jj <Esc>
+imap kk <Esc>
+ 
 " buffers 
 nmap <Leader>] :bnext<CR>
 nmap <Leader>[ :bprev<CR>
