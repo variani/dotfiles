@@ -10,8 +10,8 @@ Configure each repo:
 
 ```bash
 cd <local_dir_repo>
- git-credential-manager configure
- ```
+git-credential-manager configure
+```
 
  Check credentials:
 
