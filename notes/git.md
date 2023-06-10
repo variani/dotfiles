@@ -4,7 +4,8 @@
 
 ### `git-credential-manager`
 
-Install: https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md
+- install: https://github.com/git-ecosystem/git-credential-manager/blob/release/docs/install.md
+- set up multiple configuration files: https://stackoverflow.com/a/43884702
 
 Configure each repo: 
 
