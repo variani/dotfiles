@@ -2,6 +2,8 @@
 
 https://github.com/gperftools/gperftools
 
+Example for Rcpp: http://minimallysufficient.github.io/r/programming/c++/2018/02/16/profiling-rcpp-packages.html
+
 ## Install on Ubuntu
 
 ```bash
