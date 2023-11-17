@@ -25,7 +25,7 @@ tlmgr install <package name>
 
 `latexmk` works better than combination `pdflatex` + `bibtex`, as it can determine if `bibtex` should be run or not. Otherwise, an error “no \citation commands”.
 
-# VS Code, LaTeX Workshop
+# VS Code and LaTeX Workshop extension
 
 https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
 
