@@ -34,3 +34,14 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 ## Plugins/commands
 
 - Check spelling: https://thoughtbot.com/blog/vim-spell-checking
+
+## Caveats
+
+(1) Error while reading ShaDa file
+
+https://github.com/neovim/neovim/issues/12101
+
+```bash
+rm -rf /home/zh/.local/share/nvim/shada/* 
+rm -rf  ~/.local/state/nvim/shada/*
+```
