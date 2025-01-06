@@ -1,3 +1,13 @@
+# Convert to img for printing
+
+```
+convert -density 200 input.pdf output.pdf
+```
+
+Use `magick` instead of `convert` if needed.
+
+# Split by pages & add pwd
+
 ## On Ubuntu
 
 pdftk
