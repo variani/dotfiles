@@ -24,4 +24,7 @@ qpdf --empty --pages *.pdf -- out.pdf
 
 # 3. set a password
 qpdf --encrypt <user-password> <owner-password> 128 --use-aes=y -- somefile.pdf somefile_encrypted.pdf
+
+# 4. combine multiple files
+qpdf --empty --pages Scan\ 1.pdf Scan\ 2.pdf Scan\ 3.pdf Scan\ 4.pdf Scan\ 5.pdf -- combined.pdf
 ```
