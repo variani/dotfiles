@@ -35,3 +35,10 @@ https://github.com/James-Yu/LaTeX-Workshop/wiki/Compile#latex-recipes
 
 > To edit recipes you should go on the Code Tab (from the name of the program, Visual Studio Code), then Preferences, and from there Settings. > Open the tree for the Extension settings and you will find your LaTeX (Workshop) settings. Click on "Edit in settings.json" and you will see > the file opened for your edits.
 Source: https://tex.stackexchange.com/a/497947
+
+MacTex is needed to be installed, https://mathjiajia.github.io/vscode-and-latex/.
+
+```
+brew install mactex
+```
+  
